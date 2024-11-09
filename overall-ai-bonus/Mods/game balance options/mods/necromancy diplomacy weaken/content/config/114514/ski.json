@@ -1,0 +1,45 @@
+{
+	"core:necromancy":{
+		"basic" : {
+			"description" : "{Elementary Necromancy}\n\nElementary Necromancy enables heroes to turn 5% of the creatures that die in battle into Skeleton Warriors.",
+			"effects" : {
+				"main" : { "val" : 5 }
+			}
+		},
+		
+		"advanced" : {
+			"description" : "{Intermediate Necromancy}\n\nIntermediate Necromancy allows heroes to turn 10% of the creatures that die in battle into skeleton soldiers.",
+			"effects" : {
+				"main" : { "val" : 10 }
+			}
+		},
+		"expert" : {
+			"description" : "{Advanced Necromancy}\n\nAdvanced Necromancy enables heroes to turn 15% of the creatures that die in battle into skeleton soldiers.",
+			"effects" : {
+				"main" : { "val" : 15 }
+			}
+		}
+	},
+	"core:diplomacy":{
+		"basic" : {
+			"description" : "{Elementary Diplomacy}\n\nElementary Diplomacy can reduce the surrender cost by 20% for you.",
+			"effects" : {
+				"surr" : { "val" : 20 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Intermediate Diplomacy}\n\nIntermediate Diplomacy allows you to persuade weaker monsters to join your camp, and also reduces the surrender cost by 35%.",
+			"effects" : {
+			    "main" : { "val": 1 },
+				"surr" : { "val" : 35 }
+			}
+		},
+		"expert" : {
+			"description" : "{Advanced Diplomacy}\n\nAdvanced Diplomacy enables you to persuade weaker monsters to join your camp, and also reduces the surrender cost by 50%.",
+			"effects" : {
+				"main" : { "val": 1 },
+				"surr" : { "val" : 50 }
+			}
+		}
+	}
+}

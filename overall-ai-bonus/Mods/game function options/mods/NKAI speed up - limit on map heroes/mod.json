@@ -1,0 +1,21 @@
+{
+	"name" : "NK-AI speed up - limit on map heroes",
+	"description" : "This option will limt on map heroes to two per player for only Nullkiller AI. For AI the benefit of this option is that it will end up with strong and high level heroes and will not split armies. It will focus on developing just 2 heroes. AI also gets daily resource/experience/growth bonuses optimized for two heroes on map limit. Bonuses scale with selected game difficulty, and are greater on higher difficulty levels. With this mod turned on, there is also a slight speed increase in AI turns as AI will not do complicated pathfinding/goals or use hero-chains. This might be important for old machines with slow CPUs or games on large maps with 8 players.",
+	"version" : "1.0",
+	"author" : "val-gaav, nullkiller",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"modType" : "AI",
+	"keepDisabled" : true,
+	"depends" :
+	[],
+	"czech" : {
+		"name" : "NK-AI zrychlení - limit hrdinů na mapě",
+		"description" : "Tato volba omezí počet hrdinů na mapě na dva pro každého hráče, ale pouze pro AI Nullkiller. Výhodou pro AI je, že bude mít silné a vysoce úrovňové hrdiny a nebude rozdělovat armády. AI se zaměří na rozvoj pouze 2 hrdinů. AI také získává denní bonusy na zdroje, zkušenosti a růst optimalizovaný pro limit dvou hrdinů na mapě. Bonusy se stupňují podle vybrané obtížnosti hry a jsou větší na vyšších úrovních obtížnosti. S tímto modulem se také mírně zrychluje tah AI, protože AI nebude dělat složité vyhledávání cest/cílů ani používat řetězce hrdinů. To může být důležité pro starší stroje s pomalými CPU nebo hry na velkých mapách s 8 hráči."
+	},
+	"chinese" : {
+		"name" : "NK-AI 速度加快，限制地图英雄数量",
+		"description" : "此选项将限制地图上电脑的英雄数量为两个。对于AI而言，此选项的优点在于最终能够培养出强大且高等级的英雄，并且不会分散兵力。AI将专注于发展仅有的两名英雄。同时，针对地图上英雄数量的限制，AI还会获得每日资源、经验和成长加成，这些加成会根据所选游戏难度的不同而有所变化，难度越高，加成越大。对于人类玩家而言，两名英雄的限制意味着地图探索将变得更加困难，因为无法使用英雄连锁技能。开启此模组后，AI的行动回合也会有轻微的速度提升，因为AI无需进行复杂的寻路/目标设定或使用英雄连锁技能。这对于拥有慢速CPU的旧机器或在8人参与的大型地图上进行的游戏来说可能尤为重要."
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"name" : "VCMIEnhancementShield weaken",
+	"description" : "Weaken the Soul Steal of the VCMI Enhanced Shield.",
+	"author" : "like",
+	"version" : "0.01",
+	"contact" : "",
+	"modType" : "Compatibility",
+	"chinese":
+	{
+		"name": "VCMI增强盾削弱",
+		"description" : "削弱VCMI增强盾的灵魂窃取。"
+	},
+    "depends" :["phoenix-as-a-dream"],
+	"softDepends" :["phoenix-as-a-dream.wog-support.level8units"],
+	"artifacts" :
+	[
+		"config/larts/lart.json"
+	]
+}

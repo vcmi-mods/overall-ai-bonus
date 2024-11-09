@@ -1,0 +1,24 @@
+{
+    "name" : "1. SM overall bonus",
+	"description" : "It is recommended to play S map & M map at this difficulty. It takes effect at 200% difficulty. The experience of computer heroes is 3 times & the weekly production of town creatures is 1.5 times.",
+	"chinese" : {
+	"name" : "1. SM overall bonus",
+	"description" : "此难度推荐玩S图和M图，200%难度下生效，电脑英雄3倍经验，城镇生物1.5倍周产。"
+	},
+	"author" : "Nordsoft",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"contact" : "",
+	"version" : "1.0",
+	"modType" : "AI",
+	"conflicts" :
+	[
+        "overall-ai-bonus.AI Difficulty Selection.2-L",
+		"overall-ai-bonus.AI Difficulty Selection.3-XL",
+		"overall-ai-bonus.AI Difficulty Selection.4-H",
+		"overall-ai-bonus.AI Difficulty Selection.5-XH",	
+		"overall-ai-bonus.AI Difficulty Selection.6-G",
+	    "overall-ai-bonus.AI Difficulty Selection.0-boost"
+	],
+	"keepDisabled" : true,
+}

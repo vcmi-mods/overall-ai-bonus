@@ -1,0 +1,13 @@
+{
+	"artifact.core.amuletOfTheUndertaker.description" : "{亡灵护身符}\n\n佩带亡灵护身符可使你的招魂术提高2.5%。",
+	"artifact.core.cloakOfTheUndeadKing.description" : "{鬼王斗蓬}\n\n招魂术增强15%。此外，招魂术的等级越高，招出的亡灵等级也越高。初级：僵尸。中级：幽灵。高级：尸巫。",
+	"artifact.core.deadMansBoots.description" : "{死神靴}\n\n穿上死神靴可使你的招魂术提高7.5%。",
+	"artifact.core.vampiresCowl.description" : "{吸血鬼披风}\n\n穿上吸血鬼披风可使你的招魂术提高5%。",
+	"building.core.necropolis.special2.description" : "招魂塔可以使你所有掌握招魂术的英雄招魂术提高5%。",
+	"skill.core.diplomacy.description.advanced" : "{中级外交术}\n\n中级外交术可说服比你弱小的怪物加入你的阵营，投降时的费用也可降低35%。",
+	"skill.core.diplomacy.description.basic" : "{初级外交术}\n\n初级外交术可让你投降时的费用降低20%。",
+	"skill.core.diplomacy.description.expert" : "{高级外交术}\n\n高级外交术可说服比你弱小的怪物加入你的阵营，投降时的费用也可降低50%。",
+	"skill.core.necromancy.description.advanced" : "{中级招魂术}\n\n中级招魂术可使英雄将10%在战斗中死亡的生物变成骷髅兵。",
+	"skill.core.necromancy.description.basic" : "{初级招魂术}\n\n初级招魂术可使英雄将5%在战斗中死亡的生物变成骷髅兵。",
+	"skill.core.necromancy.description.expert" : "{高级招魂术}\n\n高级招魂术可使英雄将15%在战斗中死亡的生物变成骷髅兵。"
+}

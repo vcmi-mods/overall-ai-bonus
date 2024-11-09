@@ -1,0 +1,24 @@
+{
+	"name" : "Neutral stack experience",
+	"description" : "Increases neutral stack experience gaining to 500xp per day compared to 100xp/day by default. This way fights with neutral mobs will be harder and more interesting because of additional bonuses.",
+	"version" : "1.0",
+	"author" : "faust.twi",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"modType" : "AI",
+	"keepDisabled" : true,
+	"settings" : {
+		"creatures" : {
+			"dailyStackExperience" : 500
+		}
+	},
+	"czech" : {
+		"name" : "Zkušenosti neutrálních jednotek",
+		"description" : "Zvyšuje denní zisk zkušeností neutrálních jednotek na 500 zkušeností denně oproti výchozím 100 zkušenostem. Tímto způsobem budou souboje s neutrálními nepřáteli obtížnější a zajímavější díky dalším bonusům."
+	},
+	"chinese" : {
+		"name" : "野外生物经验积累",
+		"description" : "与默认的每天100点经验相比，将野外生物的经验获取增加到每天500点经验。这样一来，由于额外的奖励，与野外生物的战斗将会变得更加困难和有趣。"
+	}
+}
+

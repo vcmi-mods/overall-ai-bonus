@@ -1,0 +1,29 @@
+{
+	"name" : "H4 unlimited retaliations",
+	"description" : "All AI's/Player's creatures are having now unlimited retaliations. Griffins don't have any boost as for now (todo).",
+    "chinese" : {
+	"name" : "无限反击",
+	"description" : "所有电脑和玩家的生物现在都拥有无限反击技能。狮鹫目前暂时没有任何额外的提升（待处理）。",
+	},
+	"author" : "luk3Z",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"contact" : "",
+	"version" : "1.0",
+	"modType" : "Creatures",
+	"conflicts" :
+	[	],
+	"keepDisabled" : true,
+	"settings" : {
+		"bonuses" : 
+		{
+			"global" : 
+			{
+				"unlimitedRetaliations" : 
+				{
+					"type" : "UNLIMITED_RETALIATIONS"
+				},
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"name" : "Game Balance Options",
+	"description" : "1. Disable magics & treasures with Dimension Door & Fly abilities(suitable for advanced players):<br>- Magic: Dimension Door, Fly;<br>- Treasures: Angel Wings, Phoenix's Spell Book, Spellbinder's Hat & Tome of Air Magic do not randomly spawn on the map. Remove Dimension Door & Fly from Phoenix's Spell Book;<br>2. Weaken the sencondry skills (Necromancy, Diplomacy) & combined treasures (Cloak of the Undead King, Diplomat's Cloak & VCMI Enhancement Shield).",
+	"version" : "1.0",
+	"author" : "like",
+	"contact" : "50843093 [at] qq.com",
+	"modType" : "AI",
+	"chinese":
+	{
+		"name": "游戏平衡选项",
+		"description" : "1.禁用以下含飞跳功能的魔法和宝物（适合高级玩家）：<br>- 魔法：异次元之门、飞行奇术；<br>- 宝物：炽天之翼、凤凰魔法书、魔法师之帽、气系魔法书不在地图随机刷新，删除凤凰魔法书中的异次元之门和飞行奇术；<br>2.削弱辅助技能（招魂术、外交术）和组合宝物（鬼王斗篷、外交官斗篷、VCMI增强盾）。"
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"name" : "The weekly growth percent of wild monsters is 1.1 times.",
+	"description" : "The number of wild creatures naturally increases by 10% every week (this is the default natural growth rate of wild monsters in the original version of Heroes of Might & Magic III).",
+	"author" : "like",
+	"version" : "0.01",
+	"contact" : "",
+	"modType" : "AI",
+	"chinese":
+	{
+		"name": "野怪周增长率1.1倍",
+		"description" : "野外生物数量每周自然增长10%（这是英雄无敌3原版默认的野怪自然增长率）。"
+	},
+	"keepDisabled" : true,
+    "settings":
+	{
+		"creatures":
+		{
+			"weeklyGrowthPercent" : 10,
+			"weeklyGrowthCap" : 6000
+		},
+		"dwellings" :
+		{
+			"accumulateWhenNeutral" : true
+		}
+	},	
+    "conflicts" :
+	[
+        "overall-ai-bonus.weekly Growth Percent.1-2",
+	    "overall-ai-bonus.weekly Growth Percent.1-3",
+	    "overall-ai-bonus.weekly Growth Percent.1-5",
+	    "overall-ai-bonus.weekly Growth Percent.1-8",
+	    "overall-ai-bonus.weekly Growth Percent.1-10"
+	]
+}

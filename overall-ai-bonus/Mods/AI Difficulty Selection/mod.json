@@ -1,0 +1,13 @@
+{
+	"name" : "AI Difficulty Selection",
+	"description" : "No matter what AI intensity you choose, we recommend that you start the game with a 200% difficulty setting. The game experience will be even better if you turn off the Allow Cheating option in the additional settings. The specific functions of each module are explained in detail in the descriptions. Please make your selections according to your own needs.It is recommended to start from the level-0 difficulty and take on the challenges one level at a time.",
+	"version" : "1.0",
+	"author" : "like",
+	"contact" : "50843093 [at] qq.com",
+	"modType" : "AI",
+	"chinese":
+	{
+		"name": "AI难度选择",
+		"description" : "无论您选择何种AI强度，我们都建议您在游戏开始前启用200%难度开局。若您关闭额外选项中的\"允许作弊\"，游戏体验会更佳。各个模块的具体作用在描述中均有详细阐释，请您根据自身需求进行选择，建议从0级难度开始，逐级挑战。"
+	}
+}

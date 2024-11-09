@@ -1,0 +1,21 @@
+{
+	"name" : "diplomatsCloak weaken",
+	"description" : "The diplomats' cloak can reduce the surrender cost by 20% and increase the probability of wild creatures joining by 20%.",
+	"author" : "like",
+	"version" : "0.01",
+	"contact" : "",
+	"modType" : "Compatibility",
+	"chinese":
+	{
+		"name": "外交官斗篷削弱",
+		"description" : "外交官斗篷可以使投降费用减少20%，并使野外生物加入概率提升20%。",
+		"translations" : [
+			"translation/sars/chinese.json"
+		]
+	},
+	"softDepends" :["hota.artifacts"],
+	"artifacts" :
+	[
+		"config/ars/ars.json"
+	]
+}

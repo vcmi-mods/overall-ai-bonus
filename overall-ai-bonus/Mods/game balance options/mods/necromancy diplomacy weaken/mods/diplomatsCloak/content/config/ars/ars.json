@@ -1,0 +1,19 @@
+{
+    "hota.artifacts:diplomatsCloak":{
+		"bonuses":
+		[
+			{
+				"type" : "WANDERING_CREATURES_JOIN_BONUS",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		],
+		"text":{
+			"description" : "{Diplomat's Cloak}\r\n\r\nThe Diplomat's Cloak can reduce the surrender cost by 20% and increase the probability of wild creatures joining by 20%."
+		}
+	}
+}
+
+
+
+

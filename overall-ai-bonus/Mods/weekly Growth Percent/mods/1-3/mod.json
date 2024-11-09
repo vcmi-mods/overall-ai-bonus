@@ -1,0 +1,34 @@
+{
+	"name" : "The weekly growth percent of wild monsters is 1.3 times.",
+	"description" : "The number of wild creatures naturally increases by 30% every week.",
+	"author" : "like",
+	"version" : "0.01",
+	"contact" : "",
+	"modType" : "AI",
+	"chinese":
+	{
+		"name": "野怪周增长率1.3倍",
+		"description" : "野外生物数量每周自然增长30%。"
+	},
+	"keepDisabled" : true,
+    "settings":
+	{
+		"creatures":
+		{
+			"weeklyGrowthPercent" : 30,
+			"weeklyGrowthCap" : 8000
+		},
+		"dwellings" :
+		{
+			"accumulateWhenNeutral" : true
+		}
+	},
+	"conflicts" :
+	[
+        "overall-ai-bonus.weekly Growth Percent.1-2",
+	    "overall-ai-bonus.weekly Growth Percent.1-5",
+	    "overall-ai-bonus.weekly Growth Percent.1-8",
+	    "overall-ai-bonus.weekly Growth Percent.1-10",
+	    "overall-ai-bonus.weekly Growth Percent.1-1"
+	]	
+}

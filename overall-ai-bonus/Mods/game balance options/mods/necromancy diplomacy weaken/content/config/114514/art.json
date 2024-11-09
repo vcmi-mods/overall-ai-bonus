@@ -1,0 +1,43 @@
+{
+	"core:amuletOfTheUndertaker":{
+		"text":{
+			"description" : "{Amulet of the Undead}\n\nWearing the Amulet of the Undead can increase your Necromancy skill by 2.5%."
+		},
+		"bonuses" : [
+			{
+				"type" : "UNDEAD_RAISE_PERCENTAGE",
+				"val" : 2.5,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	},
+	"core:cloakOfTheUndeadKing":{
+		"text":{
+			"description" : "{Cloak of the Undead King}\n\nThe Necromancy skill is enhanced by 15%. In addition, the higher the level of Necromancy, the higher the level of the undead summoned. Elementary level: Zombies. Intermediate level: Ghosts. Advanced level: Liches."
+		}
+	},
+	"core:deadMansBoots":{
+		"text":{
+			"description" : "{Boots of the Death God}\n\nWearing the Boots of the Death God can increase your Necromancy skill by 7.5%."
+		},
+		"bonuses" : [
+			{
+				"type" : "UNDEAD_RAISE_PERCENTAGE",
+				"val" : 7.5,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	},
+	"core:vampiresCowl":{
+		"text":{
+			"description" : "{Vampire Cape}\n\nWearing the Vampire Cape can increase your Necromancy skill by 5%."
+		},
+		"bonuses" : [
+			{
+				"type" : "UNDEAD_RAISE_PERCENTAGE",
+				"val" : 5,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	}
+}

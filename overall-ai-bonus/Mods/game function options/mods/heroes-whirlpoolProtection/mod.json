@@ -1,0 +1,27 @@
+{
+    "name" : "Vortex Protection",
+    "description" : "All heroes of the computer and players now have the ability to pass through vortices without taking damage.",
+    "chinese" : {
+	"name" : "漩涡保护",
+	"description" : "所有电脑和玩家的英雄现在都拥有通过漩涡而不受伤害的能力。"
+	},
+	"author" : "like",
+	"contact" : "50843093 [at] qq.com",
+	"version" : "1.0",
+	"modType" : "Creatures",
+	"conflicts" :
+	[	],
+	"keepDisabled" : true,
+	"settings" : {
+		"bonuses" : 
+		{
+			"global" : 
+			{
+				"whirlpoolProtection" : 
+				{
+					"type" : "WHIRLPOOL_PROTECTION"
+				}
+			}
+		}
+	}
+}

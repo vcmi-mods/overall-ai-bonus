@@ -1,0 +1,19 @@
+{
+	"core:necropolis":{
+		"town":{
+			"buildings" :{
+				"special2":{
+					"description" : "The Necromancy Tower can increase the Necromancy skill of all your heroes who have mastered Necromancy by 5%.",
+					"requires" : [ "mageGuild1" ],
+					"bonuses": [ 
+						{ 
+							"type": "UNDEAD_RAISE_PERCENTAGE", 
+							"val": 5, 
+							"propagator": "PLAYER_PROPAGATOR" 		
+						} 
+					] 
+				}
+			}
+		}
+	}
+}

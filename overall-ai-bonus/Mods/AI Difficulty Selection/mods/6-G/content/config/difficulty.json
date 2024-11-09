@@ -1,0 +1,427 @@
+//Configured difficulty
+{
+	"ai":
+	{
+		"pawn":
+		{
+			"resources": { "wood" : 300, "mercury": 150, "ore": 300, "sulfur": 150, "crystal": 150, "gems": 150, "gold": 500000, "mithril": 0 },
+			"globalBonuses":
+			[
+				{
+					"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
+					"val" : 900,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "CREATURE_GROWTH_PERCENT",
+					"val" : 100,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gold",
+					"val" : 100000,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+								{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.wood",
+					"val" : 100,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.ore",
+					"val" : 100,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.mercury",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.crystal",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gems",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.sulfur",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+			],
+			"battleBonuses": 
+			[
+				{
+					"type" : "STACK_HEALTH",
+					"val" : 900,
+					"valueType" : "PERCENT_TO_ALL",
+					"duration" : "ONE_BATTLE",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "CHANGES_SPELL_COST_FOR_ALLY",
+					"val" : 50,
+					"duration" : "ONE_BATTLE",
+					"sourceType" : "OTHER"
+				}
+			]
+		},
+		"knight":
+		{
+			"resources": { "wood" : 600, "mercury": 300, "ore": 600, "sulfur": 300, "crystal": 300, "gems": 300, "gold": 7500000, "mithril": 0 },
+			"globalBonuses":
+			[
+				{
+					"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
+					"val" : 900,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "CREATURE_GROWTH_PERCENT",
+					"val" : 100,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gold",
+					"val" : 100000,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.wood",
+					"val" : 100,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.ore",
+					"val" : 100,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.mercury",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.crystal",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gems",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.sulfur",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+			],
+			"battleBonuses":
+			[
+				{
+					"type" : "STACK_HEALTH",
+					"val" : 900,
+					"valueType" : "PERCENT_TO_ALL",
+					"duration" : "ONE_BATTLE",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "CHANGES_SPELL_COST_FOR_ALLY",
+					"val" : 50,
+					"duration" : "ONE_BATTLE",
+					"sourceType" : "OTHER"
+				}
+			]
+		},
+		"rook":
+		{
+			"resources": { "wood" : 1200, "mercury": 600, "ore": 1200, "sulfur": 600, "crystal": 600, "gems": 600, "gold": 7500000, "mithril": 0 },
+			"globalBonuses":
+			[
+				{
+					"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
+					"val" : 900,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "CREATURE_GROWTH_PERCENT",
+					"val" : 100,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gold",
+					"val" : 100000,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.wood",
+					"val" : 100,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.ore",
+					"val" : 100,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.mercury",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.crystal",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gems",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.sulfur",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+			],
+			"battleBonuses":
+			[
+				{
+					"type" : "STACK_HEALTH",
+					"val" : 900,
+					"valueType" : "PERCENT_TO_ALL",
+					"duration" : "ONE_BATTLE",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "CHANGES_SPELL_COST_FOR_ALLY",
+					"val" : 50,
+					"duration" : "ONE_BATTLE",
+					"sourceType" : "OTHER"
+				}
+			]
+		},
+		"queen":
+		{
+			"resources": { "wood" : 1500, "mercury": 1000, "ore": 1500, "sulfur": 1000, "crystal": 1000, "gems": 1000, "gold": 10000000, "mithril": 0 },
+			"globalBonuses":
+			[
+				{
+					"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
+					"val" : 900,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "CREATURE_GROWTH_PERCENT",
+					"val" : 150,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gold",
+					"val" : 100000,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+								{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.wood",
+					"val" : 100,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.ore",
+					"val" : 100,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.mercury",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.crystal",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gems",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.sulfur",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+			],
+			"battleBonuses":
+			[
+				{
+					"type" : "STACK_HEALTH",
+					"val" : 900,
+					"valueType" : "PERCENT_TO_ALL",
+					"duration" : "ONE_BATTLE",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "CHANGES_SPELL_COST_FOR_ALLY",
+					"val" : 50,
+					"duration" : "ONE_BATTLE",
+					"sourceType" : "OTHER"
+				}
+			]
+		},
+		"king":
+		{
+			"resources": { "wood" : 2000, "mercury": 1000, "ore": 2000, "sulfur": 1000, "crystal": 1000, "gems": 1000, "gold": 10000000, "mithril": 0 },
+			"globalBonuses":
+			[
+				{
+					"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
+					"val" : 900,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "CREATURE_GROWTH_PERCENT",
+					"val" : 400,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gold",
+					"val" : 100000,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+								{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.wood",
+					"val" : 100,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.ore",
+					"val" : 100,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.mercury",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.crystal",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gems",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.sulfur",
+					"val" : 50,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+			],
+			"battleBonuses":
+			[
+				{
+					"type" : "STACK_HEALTH",
+					"val" : 900,
+					"valueType" : "PERCENT_TO_ALL",
+					"duration" : "ONE_BATTLE",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "CHANGES_SPELL_COST_FOR_ALLY",
+					"val" : 50,
+					"duration" : "ONE_BATTLE",
+					"sourceType" : "OTHER"
+				}
+			]
+		}
+	}
+}
+

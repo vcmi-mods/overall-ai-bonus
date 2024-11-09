@@ -1,0 +1,24 @@
+{
+    "name" : "2. L overall bonus",
+	"description" : "It is recommended to play the L map at this difficulty level, which takes effect at 200% difficulty. The experience of computer heroes is 4 times, and the weekly production of urban creatures is 2 times.",
+    "chinese" : {
+	"name" : "2. L overall bonus",
+	"description" : "此难度推荐玩L图，200%难度下生效，电脑英雄4倍经验，城镇生物2倍周产。"
+	},
+	"author" : "Nordsoft",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"contact" : "",
+	"version" : "1.0",
+	"modType" : "AI",
+	"conflicts" :
+	[
+	    "overall-ai-bonus.AI Difficulty Selection.1-SM",
+		"overall-ai-bonus.AI Difficulty Selection.3-XL",
+		"overall-ai-bonus.AI Difficulty Selection.4-H",
+		"overall-ai-bonus.AI Difficulty Selection.5-XH",	
+		"overall-ai-bonus.AI Difficulty Selection.6-G",
+	    "overall-ai-bonus.AI Difficulty Selection.0-boost"
+	],
+	"keepDisabled" : true,
+}

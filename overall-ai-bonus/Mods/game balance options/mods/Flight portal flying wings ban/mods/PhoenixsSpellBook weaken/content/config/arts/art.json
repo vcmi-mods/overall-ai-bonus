@@ -1,0 +1,92 @@
+{
+    "phoenix-as-a-dream:paadPhoenixsSpellBook":
+    {
+	    "class" : "SPECIAL",
+		"bonuses" : 
+		[
+			{
+				"subtype" : "spell.chainLightning",
+				"type" : "SPELL",
+				"val" : 0
+			},
+			{
+				"subtype" : "spell.meteorShower",
+				"type" : "SPELL",
+				"val" : 0
+			},
+			{
+				"subtype" : "spell.resurrection",
+				"type" : "SPELL",
+				"val" : 0
+			},
+			{
+				"subtype" : "spell.townPortal",
+				"type" : "SPELL",
+				"val" : 0
+			},
+			{
+				"subtype" : "spell.prayer",
+				"type" : "SPELL",
+				"val" : 0
+			},
+			{
+				"subtype" : "spell.armageddon",
+				"type" : "SPELL",
+				"val" : 0
+			},
+			{
+				"subtype" : "spell.berserk",
+				"type" : "SPELL",
+				"val" : 0
+			},
+		
+			{
+				"subtype" : "spell.prayer",
+				"type" : "SPELL",
+				"val" : 0
+			},
+			{
+				"subtype" : "spell.paadLesserSummonPhoenix",
+				"type" : "SPELL",
+				"val" : 0,
+				"limiters" : [
+					"noneOf",
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"PRIMARY_SKILL",
+							"primarySkill.attack",
+							{
+								"type" : "SECONDARY_SKILL",
+								"id" : "secondarySkill.paadPhoenixsBless"
+							}
+						]
+					}
+				]
+			},
+			{
+				"subtype" : "spell.paadSummonPhoenix",
+				"type" : "SPELL",
+				"val" : 0,
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"PRIMARY_SKILL",
+							"primarySkill.attack",
+							{
+								"type" : "SECONDARY_SKILL",
+								"id" : "secondarySkill.paadPhoenixsBless"
+							}
+						]
+					}
+				]
+			}
+			
+		]
+    }
+}
+
+
+
+

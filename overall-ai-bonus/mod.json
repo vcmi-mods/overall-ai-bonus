@@ -1,0 +1,36 @@
+{
+	"name" : "Overall AI Bonuses",
+	"description" : "Hereby, we solemnly declare that during the development of this mod, we have drawn on many other mods. However, due to the difficulty in getting in touch with the original authors, we were unable to inform them in a timely manner. We sincerely hope for everyone's understanding.<br>The following is the list of the referenced mods:<br>- h3-ai-bonus(by luk3Z);<br>- exp small features(by bakaczh);<br>- boost-ai(by Nordsoft,val-gaav);<br>- warzyw-templates (by Warzyw647).<br>As the integrator, we wholeheartedly thank all the original authors for their hard work. Meanwhile, we also want to thank Phoenix As a Dream & Master Lu (L) for their guidance, especially Zi Yue Yan Xiao (Henry.Tao) for his great help. Without you, this MOD could not have reached this stage today.<br>Instructions for This Mod:<br>Regardless of which AI difficulty level you choose, we recommend starting the game with a 200% difficulty setting. For an even better gaming experience, please disable the \"Allow Cheating\" option in the additional settings. Detailed descriptions of the specific functions of each module are provided below, so please select according to your own needs.<br>This mod includes 7 levels of AI difficulty, categorized by map size as follows:<br>Level 0: Boost AI Difficulty. This difficulty level is integrated from the community's commonly used boost-ai mod. All heroes controlled by computer players gain 1.6x experience & all town creatures produce 1.3x more per week, with abundant but limited resources.For the next 6 levels of difficulty, computer resources are almost unlimited.<br>Level 1: Suitable for S & M maps. All heroes controlled by computer players gain 3x experience & all town creatures produce 1.5x more per week.<br>Level 2: Suitable for L maps. All heroes controlled by computer players gain 4x experience & all town creatures produce 2x more per week.<br>Level 3: Suitable for XL maps. All heroes controlled by computer players gain 5x experience & all town creatures produce 2.5x more per week.<br>Level 4: Suitable for H maps. All heroes controlled by computer players gain 6x experience & all town creatures produce 3x more per week.<br>Level 5: Suitable for XH maps. All heroes controlled by computer players gain 8x experience & all town creatures produce 4x more per week.<br>Level 6: Suitable for G maps. All heroes controlled by computer players gain 10x experience & all town creatures produce 5x more per week.<br>Additionally, this mod offers 7 customizable game options:<br>1. Disable magics & treasures with Dimension Door & Fly abilities(suitable for advanced players):<br>- Magic: Dimension Door, Fly;<br>- Treasures: Angel Wings, Phoenix's Spell Book, Spellbinder's Hat & Tome of Air Magic do not randomly spawn on the map. Remove Dimension Door & Fly from Phoenix's Spell Book;<br>2. Add Unlimited-Retaliation capabilities to all creatures;<br>3. Add vortex protection to all heroes (players with a lagging game can enable this option);<br>4. The maximum recruitment limit of heroes for all computer players is set to 2 (suitable for players with a too long turn time or a lagging game);<br>5. Increase 500 experience points for all wild monsters on the map daily;<br>6. Weaken the sencondry skills (Necromancy, Diplomacy) & combined treasures (Cloak of the Undead King, Diplomat's Cloak & VCMI Enhancement Shield);<br>7. A sub-option has been added to the natural growth rate of wild monsters. You can now freely choose the strength of wild monsters according to your preferences.",
+	"author" : "like，Henry.Tao",
+	"contact" : "50843093 [at] qq.com",
+	"version" : "1.0",
+	"modType" : "AI",
+    "settings":
+	{
+		"towns":{
+			"buildingsPerTurnCap" : 1,
+		},
+	    "heroes" : {
+			"perPlayerOnMapCap" : 8,
+			"perPlayerTotalCap" : 24
+		}
+	},
+    "conflicts" :
+	[
+	    "exp small features",
+	    "h3-ai-bonus",
+		"boost-ai",
+	    "warzyw-templates.arena"
+	],
+	
+	"compatibility" :
+	{
+		"min" : "1.6",
+	},
+	"changelog" :
+    {},
+	"chinese" : {
+    "name" : "AI魔改",
+    "description" : "在此，我们郑重声明，在本模组的开发过程中，我们从许多其他的模组中汲取了灵感，但由于难以与原作者取得联系，未能及时告知，还望诸位谅解。<br>以下是引用模组列表：<br>- h3-ai-bonus（作者luk3Z）；<br>- exp small features（作者bakaczh）；<br>- boost-ai（作者Nordsoft,val - gaav）；<br>- warzyw-templates（作者Warzyw647）。<br>作为整合者，我们衷心感谢诸位原作者的辛勤付出。同时，也要特别感谢凤凰如梦和鲁大师（L）的指导，尤其紫玥炎霄（Henry.Tao）的鼎力相助，没有你们，这个模组不可能走到今天这一步。<br>本模组说明如下：<br>无论您选择何种AI强度，我们都建议您在游戏开始前启用200%难度开局。若您关闭额外选项中的\"允许作弊\"，游戏体验会更佳。各个模块的具体作用在描述中均有详细阐释，请您根据自身需求进行选择。<br>此模组包含7档AI强度，通常按地图大小分档，具体说明如下：<br>0级：Boost-AI难度。此难度由社区通用的boost-ai模组合并而来，电脑玩家的所有英雄获得1.6倍经验，所有城镇生物1.3倍周产，拥有丰富但有限的资源。而接下来的6档难度，电脑资源几乎是无限的；<br>1级：适合S图和M图。电脑玩家的所有英雄获得3倍经验，所有城镇生物1.5倍周产；<br>2级：适合L图。电脑玩家的所有英雄获得4倍经验，所有城镇生物2倍周产；<br>3级：适合XL图。电脑玩家的所有英雄获得5倍经验，所有城镇生物2.5倍周产；<br>4级：适合H图。电脑玩家的所有英雄获得6倍经验，所有城镇生物3倍周产；<br>5级：适合XH图。电脑玩家的所有英雄获得8倍经验，所有城镇生物4倍周产；<br>6级：适合G图。电脑玩家的所有英雄获得10倍经验，所有城镇生物5倍周产。<br>此外，本模组还有7个可自由开关的游戏选项：<br>1.禁用以下含飞跳功能的魔法和宝物（适合高级玩家）：<br>- 魔法：异次元之门、飞行奇术；<br>- 宝物：炽天之翼、凤凰魔法书、魔法师之帽、气系魔法书不在地图随机刷新，删除凤凰魔法书中的异次元之门和飞行奇术；<br>2.为所有生物增加无限反击能力；<br>3.为所有英雄增加漩涡保护（游戏运行较卡顿的玩家可开启此选项）；<br>4.所有电脑玩家的最大招募英雄上限为2名（适合过天时间太长或游戏卡顿的玩家）；<br>5.地图上所有野怪每日增加500经验；<br>6.削弱辅助技能（招魂术、外交术）和组合宝物（鬼王斗篷、外交官斗篷、VCMI增强盾）；<br>7.野怪自然增长率添加了子选项，现在可以依您的喜好来自由选择野怪强度。"
+    }
+}

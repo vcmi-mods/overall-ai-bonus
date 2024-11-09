@@ -1,0 +1,13 @@
+{
+	"name" : "game function options",
+	"description" : "1. Add Unlimited-Retaliation capabilities to all creatures;<br>2. Add vortex protection to all heroes (players with a lagging game can enable this option);<br>3. The maximum recruitment limit of heroes for all computer players is set to 2 (suitable for players with a too long turn time or a lagging game);<br>4. Increase 500 experience points for all wild monsters on the map daily.",
+	"version" : "1.0",
+	"author" : "like",
+	"contact" : "50843093 [at] qq.com",
+	"modType" : "AI",
+	"chinese":
+	{
+		"name": "游戏功能选项",
+		"description" : "1.为所有生物增加无限反击能力；<br>2.为所有英雄增加漩涡保护（游戏运行较卡顿的玩家可开启此选项）；<br>3.所有电脑玩家的最大招募英雄上限为2名（适合过天时间太长或游戏卡顿的玩家）；<br>4.地图上所有野怪每日增加500经验。"
+	}
+}

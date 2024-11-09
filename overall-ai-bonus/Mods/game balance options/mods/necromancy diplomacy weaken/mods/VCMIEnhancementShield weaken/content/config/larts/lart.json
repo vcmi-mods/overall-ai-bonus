@@ -1,0 +1,113 @@
+{
+    "phoenix-as-a-dream:paadVCMIEnhancementShield":
+    {
+	    	"bonuses" : 
+		[
+			{
+				"subtype": "spell.shield",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 100,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype": "spell.airShield",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 100,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype": "spell.fireShield",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 100,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype": "spell.protectAir",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 100,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype": "spell.protectFire",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 100,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype": "spell.protectWater",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 100,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype": "spell.protectEarth",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 100,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype": "spell.magicMirror",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 100,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype": "spell.stoneSkin",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 100,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype": "soulStealPermanent",
+				"type": "SOUL_STEAL",
+				"val": 1,
+				"limiters" : [
+					"allOf",
+					{
+						"type":"CREATURE_TYPE_LIMITER",
+						"parameters": [ "paadHotFlameElement", false ]
+					},
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"PRIMARY_SKILL",
+							"primarySkill.attack",
+							{
+								"type" : "SECONDARY_SKILL",
+								"id" : "phoenix-as-a-dream:paadPhoenixsBless"
+							}
+						]
+					}
+				]
+			},
+			{
+				"subtype": "soulStealPermanent",
+				"type": "SOUL_STEAL",
+				"val": 1,
+				"limiters" : [
+					"allOf",
+					{
+						"type":"CREATURE_TYPE_LIMITER",
+						"parameters": [ "paadHotFlameElement", false ]
+					},
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"PRIMARY_SKILL",
+							"primarySkill.attack",
+							{
+								"type" : "SECONDARY_SKILL",
+								"id" : "phoenix-as-a-dream:paadPhoenixsBless"
+							}
+						]
+					}
+				]
+			}
+			
+		]
+	}    	
+}
+
+
+
+

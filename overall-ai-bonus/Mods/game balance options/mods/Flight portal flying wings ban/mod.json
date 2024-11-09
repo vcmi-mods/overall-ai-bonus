@@ -1,0 +1,23 @@
+{
+	"name" : "Flight portal flying wings ban",
+	"description" : "Disable magics & treasures with Dimension Door & Fly abilities(suitable for advanced players):<br>- Magic: Dimension Door, Fly;<br>- Treasures: Angel Wings, Phoenix's Spell Book, Spellbinder's Hat & Tome of Air Magic do not randomly spawn on the map. Remove Dimension Door & Fly from Phoenix's Spell Book.",
+	"author" : "bakaczh",
+	"version" : "0.01",
+	"contact" : "",
+	"modType" : "Mechanics",
+	"keepDisabled" : true,
+	"chinese":
+	{
+		"name": "禁飞行，异次元之门",
+		"description" : "禁用以下含飞跳功能的魔法和宝物（适合高级玩家）：<br>- 魔法：异次元之门、飞行奇术；<br>- 宝物：炽天之翼、凤凰魔法书、魔法师之帽、气系魔法书不在地图随机刷新，删除凤凰魔法书中的异次元之门和飞行奇术。",
+	},
+	"artifacts":
+	[
+		"config/artandmag/arti.json"
+	],
+	"spells":
+	[
+		"config/artandmag/fly.json",
+		"config/artandmag/dimensionDoor.json"	
+	]
+}

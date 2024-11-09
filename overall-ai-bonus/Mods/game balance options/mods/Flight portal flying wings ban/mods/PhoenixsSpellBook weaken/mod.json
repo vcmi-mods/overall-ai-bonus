@@ -1,0 +1,18 @@
+{
+	"name" : "PhoenixsSpellBook weaken",
+	"description" : "Remove the Fly and Dimension Door spells from the Phoenix Spellbook.",
+	"author" : "bakaczh",
+	"version" : "0.01",
+	"contact" : "",
+	"modType" : "Compatibility",
+	"chinese":
+	{
+		"name": "凤凰魔法书削弱",
+		"description" : "移除凤凰魔法书中的飞行和异次元之门魔法。"
+	},
+	"depends" :["phoenix-as-a-dream"],
+	"artifacts" :
+	[
+		"config/arts/art.json"
+	]
+}

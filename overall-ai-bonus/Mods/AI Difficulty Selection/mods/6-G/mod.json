@@ -1,0 +1,24 @@
+{
+	"name" : "6. G overall bonus",
+	"description" : "It is recommended to play the G map at this difficulty level. It takes effect at 200% difficulty. The computer hero has 10 times the experience and the town creatures have 5 times the weekly production.",
+    "chinese" : {
+	"name" : "6. G overall bonus",
+	"description" : "此难度推荐玩G图，200%难度下生效，电脑英雄10倍经验，城镇生物5倍周产。"
+	},
+	"author" : "Nordsoft",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"contact" : "",
+	"version" : "1.0",
+	"modType" : "AI",
+    "conflicts" :
+    [
+        "overall-ai-bonus.AI Difficulty Selection.1-SM",
+		"overall-ai-bonus.AI Difficulty Selection.3-XL",
+		"overall-ai-bonus.AI Difficulty Selection.4-H",
+		"overall-ai-bonus.AI Difficulty Selection.5-XH",	
+		"overall-ai-bonus.AI Difficulty Selection.2-L",
+	    "overall-ai-bonus.AI Difficulty Selection.0-boost"
+	],
+	"keepDisabled" : true,
+}

@@ -1,0 +1,24 @@
+{
+	"name" : "0. boost AI bonus",
+	"description" : "The boost AI commonly used by the community is universal in the full size of random maps and takes effect at 200% difficulty. The experience of computer heroes is 1.6 times, and the weekly production of town creatures is 1.3 times.",
+    "chinese" : {
+	"name" : "0. boost AI bonus",
+	"description" : "社区通常使用的boost AI，随机地图全尺寸通用，200%难度下生效，电脑英雄经验1.6倍，城镇生物周产1.3倍。"
+	},
+	"author" : "Nordsoft, val-gaav",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"contact" : "",
+	"version" : "1.0",
+	"modType" : "AI",
+	"conflicts" :
+	[
+        "overall-ai-bonus.AI Difficulty Selection.1-SM",
+		"overall-ai-bonus.AI Difficulty Selection.3-XL",
+		"overall-ai-bonus.AI Difficulty Selection.4-H",
+		"overall-ai-bonus.AI Difficulty Selection.5-XH",	
+		"overall-ai-bonus.AI Difficulty Selection.6-G",
+	    "overall-ai-bonus.AI Difficulty Selection.2-L"
+	],
+	"keepDisabled" : true,
+}

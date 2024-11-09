@@ -1,0 +1,13 @@
+{
+	"name" : "weeklyGrowthPercent",
+	"description" : "Choose different weekly natural growth rates of wild monsters according to your own preferences.",
+	"version" : "1.0",
+	"author" : "like",
+	"contact" : "50843093 [at] qq.com",
+	"modType" : "AI",
+	"chinese":
+	{
+		"name": "野怪每周自然增长率调节",
+		"description" : "根据自己喜好选择不同的野外生物每周自然增长率。"
+	}
+}

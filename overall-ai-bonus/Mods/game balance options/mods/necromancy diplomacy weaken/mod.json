@@ -1,0 +1,30 @@
+{
+	"name" : "necromancy diplomacy weaken",
+	"description" : "Weaken the sencondry skills (Necromancy, Diplomacy) & combined treasures (Cloak of the Undead King, Diplomat's Cloak & VCMI Enhancement Shield).",
+	"author" : "bakaczh",
+	"version" : "0.01",
+	"contact" : "",
+	"modType" : "Skills",
+	"keepDisabled" : true,
+	"chinese":
+	{
+		"name": "削弱招魂、外交，VCMI增强盾等",
+		"description" : "削弱辅助技能（招魂术、外交术）和组合宝物（鬼王斗篷、外交官斗篷、VCMI增强盾）。",
+		"translations" : [
+			"translation/weaken/Chniese.json"
+			]
+		},
+	"softDepends" : ["hota.gamebalance"],
+	"artifacts":
+	[
+		"config/114514/art.json"
+	],
+	"skills":
+	[
+		"config/114514/ski.json"
+	],
+	"factions":
+	[
+		"config/114514/fac.json"
+	]
+}
